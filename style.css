@@ -1,0 +1,45 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+ul{
+    list-style: none;
+    background-color: lightslategray;
+    overflow: hidden;
+}
+li{
+    float: left;
+    padding: 10px 20px;
+}
+
+li :hover{
+    background-color: orange;
+}
+.links a{
+    text-decoration: none;
+}
+.links>p{
+    color: red;
+    text-align: center;
+}
+ul .active{
+    background-color: gray;
+}
+.card{
+    text-align: center;
+    margin-top: 25px;
+}
+.card img{
+    width: 200px;
+    border-radius: 50%;
+}
+h2{
+    color: red;
+}
+.video{
+    margin-top: 200px;
+}
